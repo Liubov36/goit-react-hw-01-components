@@ -1,0 +1,25 @@
+.transactionHistory {
+    width: 100%;
+  }
+  
+  .head {
+    background-color: rgb(75, 75, 223);
+    color: #ffffff;
+  }
+  
+  .line {
+    text-align: center;
+    height: 45px;
+  }
+  
+  .line:hover {
+    background-color: rgb(153, 193, 238);
+  }
+  
+  .line:nth-child(2n) {
+    background-color: #c9cdf8;
+  }
+  
+  .line:nth-child(2n):hover {
+    background-color: #70749f;
+  }
